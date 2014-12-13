@@ -17,6 +17,6 @@
 <div id="content" class="content">
 	<div id="field-container"></div>
 </div>
-<footer>Footer<sup>®</sup></footer>
+<footer><a href="https://github.com/Electric-Lizard/Minesweeper/" target="_blank">Page on github</a></footer>
 </body>
 </html>
