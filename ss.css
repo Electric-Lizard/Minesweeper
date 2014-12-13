@@ -1,0 +1,80 @@
+body {
+	margin: auto 0;
+}
+#field {
+	margin: 0 auto;
+	text-align:;
+}
+header, footer {
+	background: #444;
+	color: #eee;
+	text-align: center;
+	font-size: 32pt;
+	font-family: arial;
+	font-weight: bold;
+	padding: 15px 0;
+}
+header a {
+	color: #eee;
+	text-decoration: none;
+}
+.content {
+	text-align: center;
+	min-height: 30em;
+	padding: 20px 0;
+}
+footer {
+	font-size: 18pt;
+}
+.field {
+	margin: 0 auto;
+	text-align: left;
+	border-collapse: collapse;
+}
+.field td {
+	padding: 3px;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+}
+.field td, .status-field #flag-button {
+	border: 1px ridge #aaa;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+.field td:hover, .status-field #flag-button:hover {
+	background: #ddd;
+}
+.field td.selected:hover {
+	background: #aaa;
+}
+.field td.selected, .field td.blank, .status-field #flag-button.selected {
+	background: #eee;
+}
+#field-container {
+    display: inline-block;
+}
+.popup-menu {
+
+}
+.status-field {
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.status-field #flag-button {
+	display: inline-block;
+	width: 1.2em;
+	height: 1.2em;
+	font-size: 18pt;
+	text-align: center;
+}
+.status-text {
+	margin-left: 3em;
+	margin-bottom: 3px;
+}
+.status-text button {
+	margin-left: 0.7em;
+}
